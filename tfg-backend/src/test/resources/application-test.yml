@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: @testDataSource.url@
+    username: @testDataSource.user@
+    password: @testDataSource.password@
+    max-active: 1
+    max-idle: 1
+
+project:
+  test:
+    example-path: classifier/input/users_25.xml.gz

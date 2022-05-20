@@ -1,0 +1,1 @@
+export const FILE_UPLOADED = "project/clasificador/fileUploaded"
